@@ -1,0 +1,16 @@
+{
+    "name": "mqqs/workopia-php",
+    "description": "Job listing application",
+    "authors": [
+        {
+            "name": "Marques",
+            "email": "mqqs@email.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    }
+}
