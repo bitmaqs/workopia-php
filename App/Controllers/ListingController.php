@@ -81,7 +81,7 @@ class ListingController
         $newListingData['user_id'] = 1;
         $newListingData = array_map('sanitize', $newListingData);
 
-        $requiredFields = ['title', 'description', 'email', 'city', 'state'];
+        $requiredFields = ['title', 'salary', 'description', 'email', 'city', 'state'];
 
         $errors = [];
 
