@@ -1,5 +1,7 @@
 <?php
 
+use App\Controllers\UserController;
+
 $router->get('/', 'HomeController@index');
 $router->get('/listings', 'ListingController@index');
 $router->get('/listings/create', 'ListingController@create');
@@ -12,3 +14,5 @@ $router->delete('/listings/{id}', 'ListingController@destroy');
 
 $router->get('auth/register', 'UserController@create');
 $router->get('auth/login', 'UserController@login');
+
+$router->post('auth/register', "UserController@store");
