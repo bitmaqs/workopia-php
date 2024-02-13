@@ -191,7 +191,6 @@ class UserController
             'email' => $user->email,
             'city' => $user->city,
             'state' => $user->state,
-
         ]);
 
         redirect('/');
